@@ -1,0 +1,24 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Generated and user-uploaded data
+uploads/
+outputs/
+instance/
+*.log
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
